@@ -1,0 +1,111 @@
+
+        body{
+            font-family: Roboto, sans-serif; 
+            background-color: #e2d7aa;
+            color:#000000;
+            font-size: 16px;
+            width: 1180px;
+            margin: 0 auto;
+        }
+
+        h1{
+            font-family:'Indie Flower', cursive; EucrosiaUPC sans-serif;
+            text-align: center;
+            margin-top: 65px;
+            font-size: 60px;
+            font-weight: normal;
+        }
+
+        .img-container img{
+            width: 1100px;
+            height: 400px;
+            display: block;
+            margin: 0 auto;
+            margin-bottom: 20px;
+
+        }
+
+        nav ul{
+            list-style: none;
+            margin: 30px;
+            display: flex;
+            justify-content: center;
+            padding: 0;
+        }
+
+        nav li{
+            margin: 0 15px;
+        }
+
+        li a{
+            text-decoration: none;
+            color: #000000;
+            font-family: Roboto, sans-serif;
+            font-size: 28px;
+        }
+
+        li a:hover{
+            color: #0a2d4a;
+            font-weight: bold;
+        }
+
+
+        main article img{
+            height: 200px;
+            width: 350px;
+        }
+
+        main{
+            display: flex;
+            justify-content: space-between;
+        }
+
+        main article{
+            width: 350px;
+            text-align: justify;
+
+        }
+
+        main article h2, main article h3{
+            text-align: center;
+            margin: 0;
+        }
+
+        main article h2 a, main article h3 a{
+            text-decoration: none;
+        }
+
+        main article p{
+            line-height: 25px;
+            height: 400px;
+        }
+
+        main article p:first-of-type:first-letter{
+            font-family: EucrosiaUPC, sans-serif;
+            font-size: 40px;
+            display: block;
+        }
+
+        main article p:last-of-type{
+            text-align: center;
+        }
+
+        main article p:last-of-type span a{
+            color:#ffffff;
+            text-decoration: none;
+        }
+
+        .comments, .readmore{
+            background-image: url(images/bg2.jpg);
+            padding: 10px;
+            margin-top: 10px;
+
+        }
+
+        .comments::before{
+            content:url("images/comment.png");
+            position:relative;
+            right:5px;
+            top:7px;
+            padding:10px;
+        }
