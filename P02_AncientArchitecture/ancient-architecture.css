@@ -83,7 +83,7 @@ article p:first-of-type::first-letter{
 }
 
 .comments,.readmore{
-    background-image: url(/P02_AncientArchitecture/images/bg2.jpg);
+    background-image: url(images/bg2.jpg);
     padding: 10px;
     margin-top: 10px;
 }
